@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+}
+main{
+    height: 100vh;
+    width: 100%;
+}
+.title{
+    margin-top: 0;
+    padding-top:20px;
+}
+.container{
+    width: 90%;
+    max-width: 750px;
+    margin:0 auto;
+}
+.night{
+    color:white;
+    background-image: url('./images/nighty.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sunny{
+    background-image: url('./images/sunny.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cloudy{
+    background-image: url('./images/cloud.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form input{
+    line-height: 20px;
+    font-weight: bold;
+}
+form button{
+    line-height: 20px;
+}
+.error{
+    color:red;
+}
